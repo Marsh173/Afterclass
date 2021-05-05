@@ -17,8 +17,7 @@ if(fadeout)
 }
 if(alpha2 = 1)
 {
-	//room_goto(test);
-	obj_faceMonster.visible = true;
+	room_goto(Face_monster);
 }
 
 if(obj_mainc.y<50)

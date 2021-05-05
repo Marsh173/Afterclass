@@ -1,3 +1,9 @@
+if(room == Forest_run || room == Road)
+{
+	movespeed = 5;
+}
+
+
 #region Moving Mechanic
 if(keyboard_check(ord("W")) && place_free(x, y - cospeed))
 {
