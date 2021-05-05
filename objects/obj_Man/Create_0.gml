@@ -1,0 +1,1 @@
+obj_Man.visible = false;
