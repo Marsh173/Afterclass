@@ -92,6 +92,7 @@
     {"id":{"name":"obj_Friend","path":"objects/obj_Friend/obj_Friend.yy",},"order":4,},
     {"id":{"name":"spr_noEnter","path":"sprites/spr_noEnter/spr_noEnter.yy",},"order":3,},
     {"id":{"name":"spr_pile1","path":"sprites/spr_pile1/spr_pile1.yy",},"order":3,},
+    {"id":{"name":"spr_sidewalk","path":"sprites/spr_sidewalk/spr_sidewalk.yy",},"order":9,},
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},"order":6,},
     {"id":{"name":"spr_man","path":"sprites/spr_man/spr_man.yy",},"order":7,},
     {"id":{"name":"obj_tea","path":"objects/obj_tea/obj_tea.yy",},"order":0,},
