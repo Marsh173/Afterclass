@@ -14,10 +14,10 @@
   ],
   "layers": [
     {"assets":[
-        {"spriteId":{"name":"spr_Death_BH","path":"sprites/spr_Death_BH/spr_Death_BH.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.89750028,"scaleY":1.89750028,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":110.249969,"y":0.0,"resourceVersion":"1.0","name":"graphic_51AFD783","tags":[],"resourceType":"GMRSpriteGraphic",},
+        {"spriteId":{"name":"spr_chasem","path":"sprites/spr_chasem/spr_chasem.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":3.30500031,"scaleY":3.30500031,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":300.0,"y":165.250015,"resourceVersion":"1.0","name":"graphic_5080F88A","tags":[],"resourceType":"GMRSpriteGraphic",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Assets_1","tags":[],"resourceType":"GMRAssetLayer",},
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_Death_BH","path":"objects/obj_Death_BH/obj_Death_BH.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":448.0,"resourceVersion":"1.0","name":"inst_41CF3B6","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_Death_BM","path":"objects/obj_Death_BM/obj_Death_BM.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":125.0,"y":385.0,"resourceVersion":"1.0","name":"inst_6E8335A7","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"spriteId":null,"colour":4278190080,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
   ],
@@ -25,7 +25,7 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_41CF3B6","path":"rooms/Death_By_Hang/Death_By_Hang.yy",},
+    {"name":"inst_6E8335A7","path":"rooms/Death_By_Monster/Death_By_Monster.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
@@ -53,7 +53,7 @@
     "path": "folders/Rooms.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Death_By_Hang",
+  "name": "Death_By_Monster",
   "tags": [],
   "resourceType": "GMRoom",
 }

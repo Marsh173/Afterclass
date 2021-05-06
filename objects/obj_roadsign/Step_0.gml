@@ -1,14 +1,23 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(distance_to_object(obj_mainc)<30 && keyboard_check_released(ord("E")))
+if(distance_to_object(obj_mainc)<30 )
 {
-	obj_HeadlessFriends.visible = true;
-	global.toGlitch = true;
+	
+	if(keyboard_check_released(ord("E")))
+	{
+		obj_HeadlessFriends.visible = true;
+		global.toGlitch = true;
+	}
+	else
+	{
+		global.toGlitch = false;
+	}
+		
 }
 if(distance_to_object(obj_mainc)>35)
 {
 	obj_HeadlessFriends.visible = false;
-	global.toGlitch = false;
+	
 }
 
 if(obj_HeadlessFriends.visible)

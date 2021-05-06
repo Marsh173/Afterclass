@@ -5,3 +5,5 @@ cospeed = movespeed + 2;
 
 global.stamina = 100;
 global.staminaMax = 100;
+
+global.purpleDeath = false;

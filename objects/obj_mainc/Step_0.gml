@@ -1,10 +1,19 @@
+/*
 if(room == Forest_run || room == Road)
 {
 	movespeed = 5;
 }
-
+*/
 
 #region Moving Mechanic
+if(global.purpleDeath)
+{
+	sprite_index = spr_Death;
+}
+else
+{
+	
+
 if(keyboard_check(ord("W")) && place_free(x, y - cospeed))
 {
 	sprite_index = spr_walkingback;
@@ -28,7 +37,6 @@ else if(keyboard_check(ord("D")) && place_free(x + cospeed, y))
 	x += movespeed;
 	
 }
-
 
 if(keyboard_check(vk_nokey))
 {
@@ -54,7 +62,7 @@ if(keyboard_check(vk_nokey))
 		 image_index = 2;
 	}
 }
-
+}
 x = clamp(x,sprite_width/2,room_width-(sprite_width/2));
 y = clamp(y,sprite_height/2,room_height-(sprite_height/2));
 
@@ -67,11 +75,13 @@ if(room == Forest_run || room == Road)
 	if(keyboard_check(vk_shift) && global.stamina > 0)
 	{
 		global.stamina -= 1;
-		movespeed = 8;
+		movespeed = 10;
+		image_speed = 2;
 	}
 	else
 	{
-		movespeed = 4;
+		movespeed = 5; 
+		image_speed = 1;
 	}
 
 	if!(keyboard_check(vk_shift))
@@ -91,5 +101,8 @@ if(room == Forest_run || room == Road)
 }
 
 #endregion
+
+
+
 
 depth = -y;
