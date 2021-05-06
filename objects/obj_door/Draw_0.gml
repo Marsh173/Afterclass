@@ -3,9 +3,9 @@
 
 draw_set_font(font_Dialog);
 draw_set_colour(c_white);
-draw_set_halign(fa_center);
+draw_set_halign(fa_left);
 
 if(distance_to_object(obj_mainc)<8)
 {
-	draw_text_ext_transformed(210,190,show,20,330,1,1,0);
+	draw_text_ext_transformed(x-50,190,show,20,330,1,1,0);
 }
