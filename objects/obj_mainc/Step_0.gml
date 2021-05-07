@@ -37,7 +37,10 @@ else
 
 	if(keyboard_check(vk_nokey))
 	{
+		audio_stop_sound(snd_RunF);
+		audio_stop_sound(snd_RunR);
 		audio_stop_sound(snd_walkGrass);
+		audio_stop_sound(snd_walkFloor);
 	
 		if(sprite_index = spr_walkingfront)
 		{
@@ -101,7 +104,24 @@ if(room == Forest_run || room == Road)
 
 	if!(keyboard_check(vk_shift))
 	{
+		audio_stop_sound(snd_walkFloor);
+		audio_stop_sound(snd_walkGrass);
+		
 		global.stamina += 0.35;
+		if(room = Road)
+		{
+			if(!audio_is_playing(snd_RunR))
+			{
+				audio_play_sound(snd_RunR,1,true);
+			}
+		}
+		if(room = Forest_run)
+		{
+			if(!audio_is_playing(snd_RunF))
+			{
+				audio_play_sound(snd_RunF,1,true);
+			}
+		}
 	}
 
 	if(global.stamina > 100)

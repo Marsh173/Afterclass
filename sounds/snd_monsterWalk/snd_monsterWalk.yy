@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_Chase.mp3",
-  "duration": 13.9021,
+  "soundFile": "snd_monsterWalk.mp3",
+  "duration": 5.647425,
   "parent": {
     "name": "Main",
     "path": "folders/Sounds/Main.yy",
   },
   "resourceVersion": "1.0",
-  "name": "snd_Chase",
+  "name": "snd_monsterWalk",
   "tags": [],
   "resourceType": "GMSound",
 }

@@ -23,5 +23,5 @@ fadeout = 0;
 timer = 0;
 
 audio_play_sound(snd_FriendsDeath,1,false);
-
+audio_stop_sound(snd_monsterWalk);
 audio_stop_sound(snd_Chase);

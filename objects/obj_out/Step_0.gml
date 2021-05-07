@@ -5,7 +5,7 @@ if(!fadeout)
 	frames ++;
 }
 
-if(frames >= 2*room_speed)
+if(frames >= 3*room_speed)
 {
 	fadeout = 1;
 		

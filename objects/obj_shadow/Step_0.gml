@@ -3,8 +3,14 @@
 
 if(obj_mainc.y > y+150)
 {
+	sound ++;
 	x  -= xspeed;
 	global.toGlitch = true;
+	
+	if(!audio_is_playing(snd_shadow) && sound = 1)
+	{
+		audio_play_sound(snd_shadow,1,false);
+	}
 }
 
 if(x < 0)

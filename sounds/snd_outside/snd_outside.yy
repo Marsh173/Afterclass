@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.7,
+  "volume": 0.8,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_Chase.mp3",
-  "duration": 13.9021,
+  "soundFile": "snd_outside.mp3",
+  "duration": 4.261188,
   "parent": {
-    "name": "Main",
-    "path": "folders/Sounds/Main.yy",
+    "name": "Bedroom",
+    "path": "folders/Sounds/Bedroom.yy",
   },
   "resourceVersion": "1.0",
-  "name": "snd_Chase",
+  "name": "snd_outside",
   "tags": [],
   "resourceType": "GMSound",
 }

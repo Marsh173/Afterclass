@@ -3,6 +3,7 @@
 if (visible = true && obj_managerEnd.alpha == 0)
 {
 	image_speed = 1;
+	audio_stop_sound(snd_Stab);
 }
 
 if(image_index == 7)

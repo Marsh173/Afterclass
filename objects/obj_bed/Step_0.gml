@@ -11,6 +11,10 @@ if(distance_to_object(obj_mainc)<20)
 	if(keyboard_check(ord("E")))
 	{
 		obj_fadeBedr.fadeout = 1;
+		if(!audio_is_playing(snd_Stab))
+		{
+			audio_play_sound(snd_Stab,1,false);
+		}
 	}
 	if(obj_fadeBedr.fadeout)
 	{

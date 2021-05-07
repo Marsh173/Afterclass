@@ -15,16 +15,18 @@ if(obj_mainc.y < 50)
 		room_goto(Forest1_back);
 	}
 }
-
-else if(place_meeting(x,y-60,obj_mainc))
-{
-	face =  true;
-	fadeout = 1;
-}
-else
+else if(face == false)
 {
 	fadeout = 0;
 }
+
+if(place_meeting(x,y-60,obj_mainc))
+{
+	face = true;
+	fadeout = 1;
+}
+
+
 if(alpha = 1 && face = true)
 {
 	room_goto(Face_monster);

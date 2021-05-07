@@ -21,6 +21,7 @@ depth = -y;
 global.back = false;
 
 audio_stop_sound(snd_Chase);
+audio_stop_sound(snd_monsterWalk);
 audio_play_sound(snd_Ambience_Interior,1,true);
 
 if(global.look == false)

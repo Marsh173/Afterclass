@@ -21,7 +21,6 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_gross","path":"objects/obj_gross/obj_gross.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":-6.0,"scaleX":2.0,"scaleY":2.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":193.0,"y":1115.77771,"resourceVersion":"1.0","name":"inst_4E7F96AA","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_shadow","path":"objects/obj_shadow/obj_shadow.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.7,"scaleY":1.7,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":755.0,"y":1237.0,"resourceVersion":"1.0","name":"inst_120A5343","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_cutMonster","path":"objects/obj_cutMonster/obj_cutMonster.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":7.90625048,"scaleY":0.34375,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":43.0,"y":1600.0,"resourceVersion":"1.0","name":"inst_4007AFBE","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_faceMonster","path":"objects/obj_faceMonster/obj_faceMonster.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":4.411,"scaleY":4.411,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":true,"inheritItemSettings":false,"x":300.052,"y":1500.052,"resourceVersion":"1.0","name":"inst_78195A0E","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_Tree","path":"objects/obj_Tree/obj_Tree.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.0,"scaleY":2.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":21.5,"y":1533.0,"resourceVersion":"1.0","name":"inst_36E20A1D","tags":[],"resourceType":"GMRInstance",},
@@ -271,7 +270,6 @@
     {"name":"inst_51F5C706","path":"rooms/Creepy_Forest/Creepy_Forest.yy",},
     {"name":"inst_4DE38565","path":"rooms/Creepy_Forest/Creepy_Forest.yy",},
     {"name":"inst_4E7F96AA","path":"rooms/Creepy_Forest/Creepy_Forest.yy",},
-    {"name":"inst_78195A0E","path":"rooms/Creepy_Forest/Creepy_Forest.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

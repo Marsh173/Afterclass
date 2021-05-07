@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.7,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_Chase.mp3",
-  "duration": 13.9021,
+  "soundFile": "snd_RunR.mp3",
+  "duration": 11.02865,
   "parent": {
-    "name": "Main",
-    "path": "folders/Sounds/Main.yy",
+    "name": "Road",
+    "path": "folders/Sounds/Road.yy",
   },
   "resourceVersion": "1.0",
-  "name": "snd_Chase",
+  "name": "snd_RunR",
   "tags": [],
   "resourceType": "GMSound",
 }
