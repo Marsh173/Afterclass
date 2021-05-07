@@ -51,8 +51,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Start&End",
-    "path": "folders/Rooms/Start&End.yy",
+    "name": "Start & End",
+    "path": "folders/Rooms/Start & End.yy",
   },
   "resourceVersion": "1.0",
   "name": "End",
