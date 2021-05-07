@@ -9,3 +9,6 @@ dialog[0] = "E to break the glass";
 frames = 0;
 alpha = 1;
 fadeout = 0;
+
+
+global.look = false;

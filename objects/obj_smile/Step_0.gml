@@ -10,7 +10,7 @@ if(image_index == 7)
 	image_speed = 0;
 	frames ++;
 	
-	if(frames >= 3*room_speed)
+	if(frames >= 2.5*room_speed)
 	{
 		obj_managerEnd.fadeout = 1;
 	}

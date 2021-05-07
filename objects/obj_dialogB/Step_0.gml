@@ -1,4 +1,5 @@
 
+
 if(obj_bed.look) 
 {
 	//index = 0;
@@ -12,9 +13,4 @@ else if (global.begin_text)
 {
 	//index = 0;
 	sentence = text_Thirsty;
-}
-
-if(!fadeout)
-{
-	alpha = max(alpha - 0.02,0);
 }

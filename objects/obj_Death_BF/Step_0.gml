@@ -16,5 +16,5 @@ if(fadeout)
 }
 if(alpha = 1)
 {
-	room_goto(Start);
+	room_goto(Road);
 }

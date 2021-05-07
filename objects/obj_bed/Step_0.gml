@@ -9,14 +9,14 @@ if(distance_to_object(obj_mainc)<20)
 	
 	if(keyboard_check(ord("E")))
 	{
-		obj_dialogB.fadeout = 1;
+		obj_fadeBedr.fadeout = 1;
 	}
-	if(obj_dialogB.fadeout)
+	if(obj_fadeBedr.fadeout)
 	{
 			
-		obj_dialogB.alpha = min(obj_dialogB.alpha + 0.02,1);
+		obj_fadeBedr.alpha = min(obj_fadeBedr.alpha + 0.02,1);
 	}
-	if(obj_dialogB.alpha = 1)
+	if(obj_fadeBedr.alpha = 1)
 	{
 		room_goto(End)
 	}

@@ -1,5 +1,3 @@
-
-frames ++;
 timer ++;
 if(!fadeout)
 {

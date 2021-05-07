@@ -49,8 +49,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "Death",
+    "path": "folders/Rooms/Death.yy",
   },
   "resourceVersion": "1.0",
   "name": "Death_By_Hang",

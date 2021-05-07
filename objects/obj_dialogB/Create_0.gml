@@ -19,6 +19,3 @@ obj_dialogB.visible = false;
 depth = -y;
 
 global.back = false;
-
-alpha = 1;
-fadeout = 0;

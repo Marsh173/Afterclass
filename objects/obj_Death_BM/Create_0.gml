@@ -18,7 +18,6 @@ global.begin_text = false;
 depth = -1000;
 
 
-frames = 0;
 alpha = 1;
 fadeout = 0;
 timer = 0;
