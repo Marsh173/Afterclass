@@ -4,6 +4,11 @@ timer ++;
 if(!fadeout && timer >= 2*room_speed)
 {
 	alpha = max(alpha - 0.02,0);
+	
+	if(timer == 2*room_speed)
+	{
+		audio_play_sound(snd_killList,1,false);
+	}
 }
 
 if(keyboard_check(vk_space))

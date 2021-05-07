@@ -4,3 +4,4 @@ visible = false;
 depth = -600
 image_speed = 0;
 frames = 0;
+sound = 0;

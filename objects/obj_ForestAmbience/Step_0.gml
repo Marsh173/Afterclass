@@ -3,7 +3,6 @@
 if(room == Forest_run)
 {
 	audio_stop_sound(snd_Ambience_Forest);
-	
 }
 
 if(room == Face_monster)
