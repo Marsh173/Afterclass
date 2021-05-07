@@ -72,6 +72,7 @@
     {"id":{"name":"obj_cthulu","path":"objects/obj_cthulu/obj_cthulu.yy",},"order":5,},
     {"id":{"name":"spr_DeadBIRD","path":"sprites/spr_DeadBIRD/spr_DeadBIRD.yy",},"order":3,},
     {"id":{"name":"obj_table","path":"objects/obj_table/obj_table.yy",},"order":2,},
+    {"id":{"name":"spr_smile","path":"sprites/spr_smile/spr_smile.yy",},"order":2,},
     {"id":{"name":"obj_Tree","path":"objects/obj_Tree/obj_Tree.yy",},"order":1,},
     {"id":{"name":"spr_cover","path":"sprites/spr_cover/spr_cover.yy",},"order":8,},
     {"id":{"name":"spr_pile_big_sign","path":"sprites/spr_pile_big_sign/spr_pile_big_sign.yy",},"order":7,},
