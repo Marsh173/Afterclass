@@ -4,10 +4,14 @@ if (visible = true && obj_managerEnd.alpha == 0)
 {
 	image_speed = 1;
 	audio_stop_sound(snd_Stab);
-	sound ++;
-	if(sound == 1)
+	
+	if(image_index == 4)
 	{
-		audio_play_sound(snd_Heng,1,false);
+		sound ++;
+		if(sound == 1)
+		{
+			audio_play_sound(snd_Heng,1,false);
+		}
 	}
 }
 if(image_index == 7)

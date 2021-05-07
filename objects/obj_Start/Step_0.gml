@@ -23,3 +23,8 @@ if(alpha = 1)
 {
 	room_goto(Start_cg);
 }
+
+if(keyboard_check_pressed(vk_escape))
+{
+	game_end();
+}

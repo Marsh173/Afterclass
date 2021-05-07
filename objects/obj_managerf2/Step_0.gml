@@ -3,15 +3,6 @@
 if(!fadeout)
 {
 	alpha = max(alpha - 0.02,0);
-	
-	if(alpha == 0)
-	{
-		sound ++
-		if(sound = 1)
-		{
-			audio_play_sound(snd_HUH, 1, false);
-		}
-	}
 }
 
 if(obj_mainc.y > room_height - sprite_height/2-50)
@@ -25,6 +16,6 @@ if(obj_mainc.y > room_height - sprite_height/2-50)
 	
 	if(alpha = 1)
 	{
-		room_goto(Forest_cg);
+		room_goto(Creepy_Forest);
 	}
 }

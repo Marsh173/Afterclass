@@ -1,4 +1,3 @@
-
 draw_set_font(font_start);
 draw_set_colour(c_yellow);
 draw_set_halign(fa_center);

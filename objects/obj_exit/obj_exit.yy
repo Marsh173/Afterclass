@@ -1,12 +1,9 @@
 {
-  "spriteId": {
-    "name": "spr_house",
-    "path": "sprites/spr_house/spr_house.yy",
-  },
-  "solid": true,
+  "spriteId": null,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
-  "persistent": false,
+  "persistent": true,
   "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
@@ -21,16 +18,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Forest",
-    "path": "folders/Objects/Forest.yy",
+    "name": "Start",
+    "path": "folders/Objects/Start.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_house",
+  "name": "obj_exit",
   "tags": [],
   "resourceType": "GMObject",
 }
