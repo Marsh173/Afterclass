@@ -1,7 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
-draw_sprite_ext(spr_cover,0,0,0,room_width,room_height,0,c_black,alpha);
-
+/// @description Insert description her
 draw_set_font(font_Dialog);
 draw_set_colour(c_white);
 draw_set_halign(fa_left);

@@ -19,3 +19,4 @@ obj_dialog.visible = false;
 depth = -y;
 
 global.back = false;
+bgSound = snd_Finally;

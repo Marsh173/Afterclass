@@ -1,11 +1,10 @@
-
 timer ++;
 if(!fadeout)
 {
 	alpha = max(alpha - 0.02,0);
 }
 
-if(timer > 5*room_speed)
+if(timer > 3*room_speed)
 {
 	fadeout = 1;
 }
@@ -16,5 +15,12 @@ if(fadeout)
 }
 if(alpha = 1)
 {
-	room_goto(Road);
+	if(global.inForest)
+	{
+		room_goto(Forest_run);
+	}
+	else
+	{
+		room_goto(Road);
+	}
 }

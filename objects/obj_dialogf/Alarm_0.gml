@@ -5,6 +5,11 @@ if(index < string_length(sentence))
 	index++;
 	
 	//sound?
+	/*
+	if(!audio_is_playing(snd_HUH))
+	{
+		audio_play_sound(snd_HUH,2,false);
+	} */
 	
 	var interval = random_range(0.02, 0.06);
 	alarm[0] = room_speed * interval;

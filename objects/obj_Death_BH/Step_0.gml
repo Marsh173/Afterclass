@@ -5,7 +5,7 @@ if(!fadeout)
 	alpha = max(alpha - 0.02,0);
 }
 
-if(timer > 4*room_speed)
+if(timer > 3*room_speed)
 {
 	fadeout = 1;
 }

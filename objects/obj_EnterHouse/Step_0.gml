@@ -6,7 +6,7 @@ if(!fadeout)
 }
 
 
-if(distance_to_object(obj_mainc)<20)
+if(distance_to_object(obj_mainc)<15)
 {
 	letter += 0.5;
 	show = string_copy(text,1,letter);
@@ -16,9 +16,12 @@ if(distance_to_object(obj_mainc)<20)
 	
 	if(keyboard_check(ord("E")))
 	{
-		 fadeout = 1;
+		if(!audio_is_playing(snd_BreakWindow))
+		{
+			audio_play_sound(snd_BreakWindow, 0, false);
+		}
+		fadeout = 1;
 	}
-	
 }
 else
 {

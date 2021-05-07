@@ -12,3 +12,8 @@ fadeout = 0;
 
 
 global.look = false;
+
+if(!audio_is_playing(snd_Chase))
+{
+	audio_play_sound(snd_Chase,1,true);
+}

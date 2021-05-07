@@ -11,57 +11,73 @@ if(global.purpleDeath)
 }
 else
 {
+	if(keyboard_check(ord("W")) && place_free(x, y - cospeed))
+	{
+		sprite_index = spr_walkingback;
+		y -= movespeed;
 	
+	}
+	else if(keyboard_check(ord("A")) && place_free(x - cospeed, y))
+	{
+		sprite_index = spr_walkingleft;
+		x -= movespeed;
+	}
+	else if(keyboard_check(ord("S")) && place_free(x, y + cospeed))
+	{
+		sprite_index = spr_walkingfront;
+		y += movespeed;
+	
+	}
+	else if(keyboard_check(ord("D")) && place_free(x + cospeed, y))
+	{
+		sprite_index = spr_walkingright;
+		x += movespeed;
+	
+	}
 
-if(keyboard_check(ord("W")) && place_free(x, y - cospeed))
-{
-	sprite_index = spr_walkingback;
-	y -= movespeed;
+	if(keyboard_check(vk_nokey))
+	{
+		audio_stop_sound(snd_walkGrass);
 	
-}
-else if(keyboard_check(ord("A")) && place_free(x - cospeed, y))
-{
-	sprite_index = spr_walkingleft;
-	x -= movespeed;
-}
-else if(keyboard_check(ord("S")) && place_free(x, y + cospeed))
-{
-	sprite_index = spr_walkingfront;
-	y += movespeed;
-	
-}
-else if(keyboard_check(ord("D")) && place_free(x + cospeed, y))
-{
-	sprite_index = spr_walkingright;
-	x += movespeed;
-	
+		if(sprite_index = spr_walkingfront)
+		{
+			sprite_index = spr_mainc;
+			image_index = 0;
+		}
+		if(sprite_index = spr_walkingback)
+		{
+			sprite_index = spr_mainc;
+			 image_index = 3;
+		}
+		if(sprite_index = spr_walkingright)
+		{
+			sprite_index = spr_mainc;
+			 image_index = 1;
+		}
+		if(sprite_index = spr_walkingleft)
+		{
+			sprite_index = spr_mainc;
+			 image_index = 2;
+		}
+	}
+	else if(room == Bedroom || room == Living_room || room = Road)
+	{
+		audio_stop_sound(snd_walkGrass);
+		if(!audio_is_playing(snd_walkFloor))
+		{
+		   audio_play_sound(snd_walkFloor,1,true);
+		}
+	}
+	else
+	{
+		audio_stop_sound(snd_walkFloor);
+		if(!audio_is_playing(snd_walkGrass))
+		{
+			audio_play_sound(snd_walkGrass,1,true);
+		}
+	}
 }
 
-if(keyboard_check(vk_nokey))
-{
-	
-	if(sprite_index = spr_walkingfront)
-	{
-		sprite_index = spr_mainc;
-		image_index = 0;
-	}
-	if(sprite_index = spr_walkingback)
-	{
-		sprite_index = spr_mainc;
-		 image_index = 3;
-	}
-	if(sprite_index = spr_walkingright)
-	{
-		sprite_index = spr_mainc;
-		 image_index = 1;
-	}
-	if(sprite_index = spr_walkingleft)
-	{
-		sprite_index = spr_mainc;
-		 image_index = 2;
-	}
-}
-}
 x = clamp(x,sprite_width/2,room_width-(sprite_width/2));
 y = clamp(y,sprite_height/2,room_height-(sprite_height/2));
 

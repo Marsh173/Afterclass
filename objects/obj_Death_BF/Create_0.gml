@@ -18,7 +18,10 @@ global.begin_text = false;
 depth = -1000;
 
 
-frames = 0;
 alpha = 1;
 fadeout = 0;
 timer = 0;
+
+audio_play_sound(snd_FriendsDeath,1,false);
+
+audio_stop_sound(snd_Chase);

@@ -12,8 +12,14 @@ if(distance_to_object(obj_mainc)<5)
 	global.hang_kill = true;
 }
 
-if(global.purpleDeath)
+if(global.purpleDeath && global.hang_kill)
 {
+	
+	if(!audio_is_playing(snd_HangKill))
+	{
+		audio_play_sound(snd_HangKill,0,false);
+	}
+	
 	if(obj_mainc.image_index >= 9)
 	{
 		room_goto(Death_By_Hang);

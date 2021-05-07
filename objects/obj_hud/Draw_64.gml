@@ -1,4 +1,4 @@
-if(instance_exists(obj_mainc))
+if(instance_exists(obj_mainc) && global.purpleDeath == false)
 {
 	draw_sprite(spr_backstamina, 1, 30,30,);
 	draw_sprite_ext(spr_frontstamina,1,30,30,

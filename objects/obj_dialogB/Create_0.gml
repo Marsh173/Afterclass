@@ -19,3 +19,11 @@ obj_dialogB.visible = false;
 depth = -y;
 
 global.back = false;
+
+audio_stop_sound(snd_Chase);
+audio_play_sound(snd_Ambience_Interior,1,true);
+
+if(global.look == false)
+{
+	audio_play_sound(snd_SoClose,1,false);
+}
