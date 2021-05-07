@@ -12,9 +12,14 @@ if(distance_to_object(obj_mainc)<10)
 	
 	Go_out = true; //for obj_dialog
 	global.toGlitch = true;
+
 	
 	if(keyboard_check(ord("E")))
 	{
+		if(!audio_is_playing(snd_Door))
+		{
+			audio_play_sound(snd_Door, 1, false);
+		}
 		 fadeout = 1;
 	}
 	if(fadeout)
@@ -24,6 +29,7 @@ if(distance_to_object(obj_mainc)<10)
 	if(alpha = 1)
 	{
 		room_goto(Forest);
+		audio_stop_all();
 	}
 	
 	//sound

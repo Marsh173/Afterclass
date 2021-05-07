@@ -16,6 +16,7 @@ if(distance_to_object(obj_mainc)<20)
 	
 	if(keyboard_check(ord("E")))
 	{
+		audio_play_sound(snd_BreakWindow, 0, false);
 		 fadeout = 1;
 	}
 	

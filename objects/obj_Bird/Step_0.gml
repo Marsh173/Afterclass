@@ -2,6 +2,7 @@
 // You can write your code in this editor
 if(distance_to_object(obj_mainc)<200 && mouse_check_button(mb_left) && global.pickup = true)
 {
+	audio_play_sound(snd_KillBird,0,false);
 	image_index = 1;
 	y = 370;
 	dead = true;
@@ -9,6 +10,7 @@ if(distance_to_object(obj_mainc)<200 && mouse_check_button(mb_left) && global.pi
 
 if(distance_to_object(obj_mainc)<30 && image_index == 1 && keyboard_check_released(ord("E")))
 {
+	
 	obj_DeadBird.visible = true;
 	
 }

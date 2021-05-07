@@ -41,6 +41,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_hud","path":"objects/obj_hud/obj_hud.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":45.0,"y":67.0,"resourceVersion":"1.0","name":"inst_4E3005BD","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_grid","path":"objects/obj_grid/obj_grid.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":293.0,"y":506.0,"resourceVersion":"1.0","name":"inst_7B511688","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_chasemon","path":"objects/obj_chasemon/obj_chasemon.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":293.0,"y":1750.0,"resourceVersion":"1.0","name":"inst_6099287B","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_Shift","path":"objects/obj_Shift/obj_Shift.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":1440.0,"resourceVersion":"1.0","name":"inst_111C4DF8","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Character","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_Glitch","path":"objects/obj_Glitch/obj_Glitch.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":true,"inheritItemSettings":false,"x":284.331635,"y":1131.0,"resourceVersion":"1.0","name":"inst_4C3490E3","tags":[],"resourceType":"GMRInstance",},
@@ -117,6 +118,7 @@
     {"name":"inst_7FC2C092","path":"rooms/Road/Road.yy",},
     {"name":"inst_1B16B23B","path":"rooms/Road/Road.yy",},
     {"name":"inst_6BBB94E","path":"rooms/Road/Road.yy",},
+    {"name":"inst_111C4DF8","path":"rooms/Road/Road.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

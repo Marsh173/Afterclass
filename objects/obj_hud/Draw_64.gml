@@ -5,4 +5,5 @@ if(instance_exists(obj_mainc))
 	max(0,global.stamina/global.staminaMax),1,0,c_white,1);
 	
 	draw_sprite(spr_Stamina_Sign,1, 20,35);
+	
 }

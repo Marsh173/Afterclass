@@ -5,6 +5,7 @@ if(distance_to_object(obj_mainc)<30 )
 	
 	if(keyboard_check_released(ord("E")))
 	{
+		audio_play_sound(snd_PickSign,0,false);
 		obj_HeadlessFriends.visible = true;
 		global.toGlitch = true;
 	}

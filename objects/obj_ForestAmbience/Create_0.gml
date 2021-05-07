@@ -1,0 +1,1 @@
+audio_play_sound(snd_Ambience_Forest,5,true);

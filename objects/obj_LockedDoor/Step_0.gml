@@ -7,7 +7,10 @@ if(distance_to_object(obj_mainc)<20)
 	text = dialog[0];
 	
 	//sound
-	
+	if(!audio_is_playing(snd_Locked))
+	{
+		audio_play_sound(snd_Locked,0,false);
+	}
 	
 	
 }

@@ -13,3 +13,5 @@ alpha = 1;
 fadeout = 0;
 
 depth = -1000
+
+audio_play_sound(snd_Ambience_Interior, 2, true);

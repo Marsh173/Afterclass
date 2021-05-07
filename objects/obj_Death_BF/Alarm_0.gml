@@ -11,5 +11,5 @@ if(index < string_length(sentence))
 }
 else
 {
-	alarm[1] = room_speed * 2.5;
+	alarm[1] = room_speed * 1.5;
 }

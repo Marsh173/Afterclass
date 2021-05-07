@@ -14,6 +14,20 @@ if (mp_grid_path(global.grid, path, x, y, target_x, target_y, 1))
 if(distance_to_object(obj_mainc)<5 && global.hang_kill = false && global.friend_kill = false)
 {
 	global.purpleDeath = true;
+	if(!audio_is_playing(snd_MonsterKill))
+	{
+		audio_play_sound(snd_MonsterKill,0,true);
+	}
+	
+	if(room == Forest_run)
+	{
+		global.inForest = true;
+	}
+	else
+	{
+		global.onRoad = true;
+	}
+	
 	if(obj_mainc.image_index >= 9)
 	{
 		room_goto(Death_By_Monster);

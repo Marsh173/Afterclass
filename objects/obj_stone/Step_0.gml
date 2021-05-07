@@ -3,6 +3,7 @@
 if(distance_to_object(obj_mainc)<10 && keyboard_check_released(ord("E")))
 {
 	global.pickup = true;
+	audio_play_sound(snd_PickStone,0,false);
 }
 if(global.pickup)
 {
