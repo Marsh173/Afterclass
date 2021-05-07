@@ -6,6 +6,11 @@ if(!fadeout)
 
 if(keyboard_check(vk_space))
 {
+	sound ++;
+	if(sound = 1)
+	{
+		audio_play_sound(snd_MonsterKill,2,false);
+	}
 	fadeout = 1;
 	
 	alarm[0] = 3;
@@ -16,7 +21,5 @@ if(fadeout)
 }
 if(alpha = 1)
 {
-	audio_play_sound(snd_Start,2,false);
 	room_goto(Start_cg);
-	
 }

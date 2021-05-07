@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(obj_mainc.y > y+150)
+if(obj_mainc.y > y+100)
 {
 	sound ++;
 	x  -= xspeed;

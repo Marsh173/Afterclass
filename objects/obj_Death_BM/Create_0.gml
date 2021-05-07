@@ -22,6 +22,5 @@ alpha = 1;
 fadeout = 0;
 timer = 0;
 
+audio_stop_all();
 audio_play_sound(snd_Eat,1,false);
-audio_stop_sound(snd_Chase);
-audio_stop_sound(snd_monsterWalk);

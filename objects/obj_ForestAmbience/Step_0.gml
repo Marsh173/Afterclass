@@ -6,12 +6,10 @@ if(room == Forest_run)
 	
 }
 
-
 if(room == Face_monster)
 {
 	if(!audio_is_playing(snd_Eat))
 	{
-		
 		audio_play_sound(snd_Eat,0,true);
 	}
 }

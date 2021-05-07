@@ -19,8 +19,6 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_dialogf2","path":"objects/obj_dialogf2/obj_dialogf2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":104.0,"y":506.0,"resourceVersion":"1.0","name":"inst_2366B017","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_CG_Forest","path":"objects/obj_CG_Forest/obj_CG_Forest.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_9CDA8F8","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_mainc","path":"objects/obj_mainc/obj_mainc.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.5,"scaleY":1.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":true,"inheritItemSettings":false,"x":227.0,"y":190.0,"resourceVersion":"1.0","name":"inst_2D026193","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_Glitch","path":"objects/obj_Glitch/obj_Glitch.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":312.0,"y":188.0,"resourceVersion":"1.0","name":"inst_79D87F93","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"spriteId":{"name":"spr_forest_cg","path":"sprites/spr_forest_cg/spr_forest_cg.yy",},"colour":4294967295,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
   ],
@@ -30,8 +28,6 @@
   "instanceCreationOrder": [
     {"name":"inst_2366B017","path":"rooms/Forest_cg/Forest_cg.yy",},
     {"name":"inst_9CDA8F8","path":"rooms/Forest_cg/Forest_cg.yy",},
-    {"name":"inst_2D026193","path":"rooms/Forest_cg/Forest_cg.yy",},
-    {"name":"inst_79D87F93","path":"rooms/Forest_cg/Forest_cg.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
