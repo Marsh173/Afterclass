@@ -37,6 +37,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_roadsign","path":"objects/obj_roadsign/obj_roadsign.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.3,"scaleY":1.3,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":534.000061,"y":457.999939,"resourceVersion":"1.0","name":"inst_6CB74DAC","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_mainc","path":"objects/obj_mainc/obj_mainc.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.5,"scaleY":1.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":319.999969,"y":544.0,"resourceVersion":"1.0","name":"inst_64068EDC","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_Bird","path":"objects/obj_Bird/obj_Bird.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":-1.07578123,"scaleY":1.15625,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":true,"inheritItemSettings":false,"x":198.0,"y":300.5,"resourceVersion":"1.0","name":"inst_7074A525","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_dialogHouse","path":"objects/obj_dialogHouse/obj_dialogHouse.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":88.59996,"y":470.799957,"resourceVersion":"1.0","name":"inst_DC22520","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"spr_grass","path":"sprites/spr_grass/spr_grass.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":46.0,"y":149.0,"resourceVersion":"1.0","name":"graphic_4785598","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -57,7 +58,6 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"Forest","path":"rooms/Forest/Forest.yy",},
     {"name":"Forest","path":"rooms/Forest/Forest.yy",},
     {"name":"Forest","path":"rooms/Forest/Forest.yy",},
     {"name":"Forest","path":"rooms/Forest/Forest.yy",},
@@ -88,6 +88,7 @@
     {"name":"inst_7E6D5614","path":"rooms/Forest1_back/Forest1_back.yy",},
     {"name":"inst_7DEFEB42","path":"rooms/Forest1_back/Forest1_back.yy",},
     {"name":"inst_55F539E6","path":"rooms/Forest1_back/Forest1_back.yy",},
+    {"name":"inst_DC22520","path":"rooms/Forest1_back/Forest1_back.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
