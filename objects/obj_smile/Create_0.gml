@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-alpha = 1;
-fadeout = 0;
+visible = false;
+depth = -600
+image_speed = 0;
+frames = 0;

@@ -9,7 +9,16 @@ if(distance_to_object(obj_mainc)<20)
 	
 	if(keyboard_check(ord("E")))
 	{
-		//room_goto(End)
+		obj_dialogB.fadeout = 1;
+	}
+	if(obj_dialogB.fadeout)
+	{
+			
+		obj_dialogB.alpha = min(obj_dialogB.alpha + 0.02,1);
+	}
+	if(obj_dialogB.alpha = 1)
+	{
+		room_goto(End)
 	}
 	
 	//sound

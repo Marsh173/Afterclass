@@ -1,9 +1,8 @@
-/*
-if(room == Forest_run || room == Road)
+
+if(room = Bedroom)
 {
-	movespeed = 5;
+	movespeed = 4;
 }
-*/
 
 #region Moving Mechanic
 if(global.purpleDeath)
@@ -101,8 +100,5 @@ if(room == Forest_run || room == Road)
 }
 
 #endregion
-
-
-
 
 depth = -y;

@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Start",
+    "path": "folders/Objects/Start.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_startcg",
